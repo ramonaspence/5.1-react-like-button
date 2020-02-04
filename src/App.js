@@ -20,19 +20,5 @@ class App extends Component {
           <div className='App'>
             <button className='like' onClick={this.addLike} type='button'><span>{this.state.likes} {this.state.likes === 1 ? 'like':'likes'}</span></button>
           </div> );
-
-  // render() {  //this is a ???? so it takes some control flow logic.
-  //
-  //   if (this.state.likes === 1) {
-  //     return (
-  //     <div className="App">
-  //     <button className="like" onClick={this.addLike} type="button"><span>{this.state.likes} Like</span></button>
-  //     </div>
-  //   );} else
-  // return (
-  //   <div className="App">
-  //   <button className="like" onClick={this.addLike} type="button"><span>{this.state.likes} Likes</span></button>
-  //   </div>
-  // );  //I can definitely makes this control flow logic more simple and less code, but I don't know how quite yet.
 }}
 export default App;
