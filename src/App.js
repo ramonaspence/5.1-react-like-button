@@ -15,7 +15,6 @@ class App extends Component {
   }
 
       render() {
-        // const single = (this.state.likes = 1);
         return (
           <div className='App'>
             <button className='like' onClick={this.addLike} type='button'><span>{this.state.likes} {this.state.likes === 1 ? 'like':'likes'}</span></button>
